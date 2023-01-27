@@ -1,95 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Mirrored from preview.colorlib.com/theme/meetup/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jan 2023 07:13:00 GMT -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up Form by Colorlib</title>
-
-    <!-- Font Icon -->
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-
-    <!-- Main css -->
-    <link rel="stylesheet" href="css/style.css">
+<title>GIA- INTER-HOUSE SPORT</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<link rel="stylesheet" href="css/icomoon.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="images/fav.png" type="image/x-icon" />
+<script nonce="c5762b8e-52bc-4343-8353-1e67bba6311f">(function(w,d){!function(f,g,h,i){f[h]=f[h]||{};f[h].executed=[];f.zaraz={deferred:[],listeners:[]};f.zaraz.q=[];f.zaraz._f=function(j){return function(){var k=Array.prototype.slice.call(arguments);f.zaraz.q.push({m:j,a:k})}};for(const l of["track","set","debug"])f.zaraz[l]=f.zaraz._f(l);f.zaraz.init=()=>{var m=g.getElementsByTagName(i)[0],n=g.createElement(i),o=g.getElementsByTagName("title")[0];o&&(f[h].t=g.getElementsByTagName("title")[0].text);f[h].x=Math.random();f[h].w=f.screen.width;f[h].h=f.screen.height;f[h].j=f.innerHeight;f[h].e=f.innerWidth;f[h].l=f.location.href;f[h].r=g.referrer;f[h].k=f.screen.colorDepth;f[h].n=g.characterSet;f[h].o=(new Date).getTimezoneOffset();if(f.dataLayer)for(const s of Object.entries(Object.entries(dataLayer).reduce(((t,u)=>({...t[1],...u[1]})))))zaraz.set(s[0],s[1],{scope:"page"});f[h].q=[];for(;f.zaraz.q.length;){const v=f.zaraz.q.shift();f[h].q.push(v)}n.defer=!0;for(const w of[localStorage,sessionStorage])Object.keys(w||{}).filter((y=>y.startsWith("_zaraz_"))).forEach((x=>{try{f[h]["z_"+x.slice(7)]=JSON.parse(w.getItem(x))}catch{f[h]["z_"+x.slice(7)]=w.getItem(x)}}));n.referrerPolicy="origin";n.src="../../cdn-cgi/zaraz/sd0d9.js?z="+btoa(encodeURIComponent(JSON.stringify(f[h])));m.parentNode.insertBefore(n,m)};["complete","interactive"].includes(g.readyState)?zaraz.init():f.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script>
 </head>
-<body>
 
-    <div class="main">
-        <div class="container">
-            <div class="booking-content">
-                <div class="booking-image">
-                    <img class="booking-img" src="images/form-img.jpg" alt="Booking Image">
-                </div>
-                <div class="booking-form">
-                    
-                    <form id="booking-form">
-                        <h2>We are looking forward to hosting you!</h2>
-                        <div class="form-group form-input">
-                            <input type="text" name="name" id="name" value="" required/>
-                            <label for="name" class="form-label">Your name</label>
-                        </div>
-                        <div class="form-group form-input">
-                            <input type="number" name="phone" id="phone" value="" required />
-                            <label for="phone" class="form-label">Your phone number</label>
-                        </div>
-                        <div class="form-group form-input">
-                            <input type="email" name="email" id="email" value="" required />
-                            <label for="phone" class="form-label">Email</label>
-                        </div>
-                        <!-- <div class="form-group">
-                            <div class="select-list">
-                                <select name="time" id="time" required>
-                                    <option value="">Time</option>
-                                    <option value="6pm">6:00 PM</option>
-                                    <option value="7pm">7:00 PM</option>
-                                </select>
-                            </div>
-                        </div> -->
-                        <div class="form-group">
-                            <div class="select-list">
-                                <select name="food" id="food" required>
-                                    <option value="">Will you be Attending</option>
-                                    <option value="seasonalfish">Yes</option>
-                                    <option value="assortedmushrooms">I might</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-radio">
-                            <label class="label-radio"> Select number of seat</label>
-                            <div class="radio-item-list">
-                              
-                                <span class="radio-item active">
-                                    <input type="radio" name="number_people" value="4" id="number_people_4" checked="checked" />
-                                    <label for="number_people_4">1</label>
-                                </span>
-                                <span class="radio-item">
-                                    <input type="radio" name="number_people" value="6" id="number_people_6" />
-                                    <label for="number_people_6">2</label>
-                                </span>
-                                <span class="radio-item">
-                                    <input type="radio" name="number_people" value="8" id="number_people_8" />
-                                    <label for="number_people_8">4</label>
-                                </span>
-                                <span class="radio-item">
-                                    <input type="radio" name="number_people" value="10" id="number_people_10" />
-                                    <label for="number_people_10">6</label>
-                                </span>
-                            </div>
-                        </div>
 
-                        <div class="form-submit">
-                            <input type="submit" value="Book now" class="submit" id="submit" name="submit" />
-                            <a href="#" class="vertify-booking">Verify your booking info from your phone</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+<div class="container">
+<a class="navbar-brand" href="index-2.html"><img src="/images/logo-.png" alt="logo"></a>
+<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="oi oi-menu"></span> Menu
+</button>
+<div class="collapse navbar-collapse" id="ftco-nav">
+<ul class="navbar-nav nav ml-auto">
+<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+<li class="nav-item"><a href="https://glisteninternationalacademy.com/ihs2023/" class="nav-link"><span>Event Page</span></a></li>
+<li class="nav-item cta"><a href="#" class="nav-link">Register Here</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<section id="home-section" class="hero js-fullheight">
+<h3 class="vr"><span>Welcome</span></h3>
+<div id="timer" class="text-center">
+<div class="time" id="days"></div>
+<div class="time" id="hours"></div>
+<div class="time" id="minutes"></div>
+<div class="time" id="seconds"></div>
+</div>
+<div class="home-slider owl-carousel js-fullheight">
 
-    </div>
+<div class="slider-item js-fullheight">
+<div class="overlay"></div>
+<div class="container-fluid px-0">
+<div class="row d-md-flex no-gutters slider-text js-fullheight align-items-end justify-content-end" data-scrollax-parent="true">
+<div class="one-third order-md-last js-fullheight img" style="background-image:url(images/banner-2.jpg);">
+<div class="overlay"></div>
+</div>
+<div class="one-forth js-fullheight d-flex align-items-start align-items-md-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 
-    <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+  <div class="text mt-4 mt-md-0">
+  <h2 class="mb-2">We are looking forward to hosting you! @ </h2>
+<h1 class="mb-4">GLISTEN INTERNATIONAL ACADEMY <br> <span> <img src="/images/mascot.png" alt=""> 11th Inter-house Sport Competition</span></span></h1>
+
+<p><a href="#" class="btn btn-primary py-3 px-4">Register Here</a> <a href="https://glisteninternationalacademy.com/ihs2023/" class="btn btn-white py-3 px-4">Watch Video</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="slider-item js-fullheight">
+<div class="overlay"></div>
+<div class="container-fluid px-0">
+<div class="row d-flex no-gutters slider-text js-fullheight align-items-end justify-content-end" data-scrollax-parent="true">
+<div class="one-third order-md-last js-fullheight img" style="background-image:url(images/banner-1.jpg);">
+<div class="overlay"></div>
+</div>
+<div class="one-forth js-fullheight d-flex align-items-start align-items-md-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+<div class="text mt-4 mt-md-0">
+<h2 class="mb-1"> <span>Theme</span></h2>
+<h1 class="mb-4">PHENOMENAL SCALABILITY FOR SUSTAINABILITY <span></span></h1>
+<h2 class="mb-4">Saturday  18, February 2023 - Time: 10:00am</h2>
+<p><a href="#" class="btn btn-primary py-3 px-4">Register Here</a> <a href="https://glisteninternationalacademy.com/ihs2023/" class="btn btn-white py-3 px-4">Watch Video</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+<section class="ftco-about ftco-counter ftco-no-pb img ftco-section" id="about-section">
+<div class="container">
+<div class="row d-flex">
+<div class="col-md-6 col-lg-5 d-flex">
+<!-- <div class="img-about img d-flex align-items-stretch">
+<div class="overlay"></div>
+<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about-1.jpg);">
+</div>
+</div> -->
+</div>
+
+</div>
+</div>
+</section>
+
+
+<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"78ffaeef4ba2777a","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from preview.colorlib.com/theme/meetup/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jan 2023 07:13:35 GMT -->
 </html>
