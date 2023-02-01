@@ -796,27 +796,27 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #000305;
-  border-color: #00060c;
+  background-color: #000000;
+  border-color: #000305;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #000307;
-  border-color: #000407;
+  background-color: #000102;
+  border-color: #000102;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 2, 3, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #000000;
-  border-color: #000205;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -1197,8 +1197,8 @@ fieldset:disabled a.btn {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
-  border: 1px solid black;
+  background-color:transparent;
+  border: 1px solid transparent;
   border-radius: 0.25rem;
 }
 
@@ -1387,8 +1387,8 @@ fieldset:disabled a.btn {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #01050a;
+  border-color: #000203;
 }
 
 .close {
@@ -1793,14 +1793,14 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: #000102 !important;
 }
 
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #0062cc !important;
+  background-color: #000203 !important;
 }
 
 .bg-light {
@@ -2189,13 +2189,13 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #033fff;
+  color: #000105;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #033fff;
+  color: #020308;
   outline: none !important;
 }
 
@@ -2238,7 +2238,7 @@ h3,
 }
 
 .ftco-navbar-light .navbar-brand {
-  color: #fff;
+  color: rgb(2, 0, 0);
   padding-top: .7rem;
   padding-bottom: .7rem;
 }
@@ -2267,7 +2267,7 @@ h3,
   padding-bottom: .7rem;
   padding-left: 20px;
   padding-right: 20px;
-  color: rgb(3, 0, 0);
+  color: #fff;
   font-weight: 400;
   opacity: 1 !important;
 }
@@ -2291,7 +2291,7 @@ h3,
   height: 2px;
   bottom: 0;
   left: 0;
-  background: #000000;
+  background: #000002;
   visibility: visible;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -2320,7 +2320,7 @@ h3,
     padding-right: 0;
     padding-bottom: 1rem;
     padding-top: 0;
-    color: rgb(5, 1, 1);
+    color: rgb(7, 0, 0);
   }
 }
 
@@ -2330,7 +2330,7 @@ h3,
   padding-bottom: .7rem;
   padding-left: 18px;
   padding-right: 18px;
-  background: #000201;
+  background: #000000;
   margin-top: 0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2344,14 +2344,14 @@ h3,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.cta>a:hover {
-  background: #033fff;
-  border: 1px solid #033fff;
+  background: #000002;
+  border: 1px solid #bccafa;
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item .nav-link.active {
   background: transparent;
   background: none;
-  color: #033fff;
+  color: #b9c7f5;
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item .nav-link.active span:before {
@@ -2363,13 +2363,13 @@ h3,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav>.nav-item.active>a {
-    color: #000000;
+    color: #000105;
   }
 }
 
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(10, 3, 3, 0.5) !important;
+  color: rgba(2, 0, 0, 0.5) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -2380,7 +2380,7 @@ h3,
 .ftco-navbar-light .navbar-toggler:hover,
 .ftco-navbar-light .navbar-toggler:focus {
   text-decoration: none;
-  color: #033fff;
+  color: #000207;
   outline: none !important;
 }
 
@@ -2405,12 +2405,12 @@ h3,
 }
 
 .ftco-navbar-light.scrolled .nav-item.active>a {
-  color: #000000 !important;
+  color: #000208 !important;
 }
 
 .ftco-navbar-light.scrolled .nav-item.cta>a {
   color: #fff !important;
-  background: #000000;
+  background: #00030a;
   border: none !important;
   padding-top: 0.5rem !important;
   padding-bottom: .5rem !important;
@@ -2453,7 +2453,7 @@ h3,
 }
 
 .ftco-navbar-light.scrolled .nav-link.active {
-  color: #033fff !important;
+  color: #000002 !important;
 }
 
 .ftco-navbar-light.scrolled.awake {
@@ -2482,7 +2482,7 @@ h3,
 }
 
 .navbar-brand span {
-  color: #0f0c01;
+  color: #0c0901;
 }
 
 .hero {
@@ -2500,7 +2500,7 @@ h3,
   bottom: 0;
   content: '';
   z-index: -1;
-  background: #000000;
+  background: #000208;
   opacity: 1;
 }
 
@@ -2535,6 +2535,7 @@ h3,
 
 .hero h3.vr span {
   color: #000000;
+  
 }
 
 @media (max-width: 1199.98px) {
@@ -2549,7 +2550,7 @@ h3,
   right: 0;
   width: 100%;
   z-index: 1;
-  background: #b6deff;
+  background: #bbdefd;
   -webkit-box-shadow: -16px -16px 38px -17px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: -16px -16px 38px -17px rgba(0, 0, 0, 0.19);
   box-shadow: -16px -16px 38px -17px rgba(0, 0, 0, 0.19);
@@ -2566,7 +2567,7 @@ h3,
   font-size: 30px;
   font-weight: 400;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
-  color: rgb(0, 0, 0);
+  color: rgb(10, 1, 1);
   padding: 0;
   float: left;
   padding: 10px 0;
@@ -2602,7 +2603,7 @@ h3,
 .hero #timer .time span {
   font-size: 12px;
   display: block;
-  color: rgba(19, 8, 8, 0.8);
+  color: rgba(10, 1, 1, 0.8);
   letter-spacing: 0px;
   text-transform: uppercase;
 }
@@ -2660,7 +2661,7 @@ h3,
 .owl-carousel.home-slider {
   position: relative;
   height: 750px;
-  z-index: -10;
+  z-index: 0;
 }
 
 .owl-carousel.home-slider:after {
@@ -2670,7 +2671,7 @@ h3,
   left: 0;
   width: 100%;
   height: 100%;
-  background: #221901;
+  background: #fbb901;
   opacity: 0;
   content: '';
   z-index: -1;
@@ -2715,7 +2716,7 @@ h3,
 .owl-carousel.home-slider .slider-item .slider-text .one-third {
   width: 100%;
   position: relative;
-  height: 700px;
+  height: 750px;
   z-index: -1;
   -webkit-box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16);
@@ -2741,7 +2742,7 @@ h3,
 @media (max-width: 991.98px) {
   .owl-carousel.home-slider .slider-item .slider-text .one-third {
     width: 100%;
-    z-index: 0;
+    z-index: 1;
   }
 
   .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
@@ -2821,7 +2822,7 @@ h3,
 
 .owl-carousel.home-slider .slider-item .slider-text h1 span {
   font-weight: 900;
-  color: #fcfbff;
+  color: #faf9f5;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 span img {
@@ -2830,7 +2831,7 @@ h3,
 }
 
 .slider-item h2 span {
-  color: #ffffff;
+  color: #f3f1ec;
 }
 
 @media (max-width: 991.98px) {
@@ -3089,7 +3090,7 @@ h3,
 }
 
 .bg-primary {
-  background: #000002;
+  background: #033fff;
 }
 
 .btn {
@@ -3110,15 +3111,15 @@ h3,
 }
 
 .btn.btn-primary {
-  background: #000000;
-  border: 1px solid #000000 !important;
-  color: #fff !important;
+  background: #00030e;
+  border: 1px solid #00030e !important;
+  color: #fff;
 }
 
 .btn.btn-primary:hover {
-  border: 1px solid #000207;
-  background: #000105;
-  color: #01030a;
+  border: 1px solid #eef7ff;
+  background: #eef7ff;
+  color: #000203;
 }
 
 .btn.btn-white {
@@ -3151,7 +3152,7 @@ h3,
   content: '';
   z-index: -1;
   background: rgba(0, 0, 0, 0.05);
-  background: #033fff;
+  background: #000000;
   margin-top: -50px;
   margin-left: -50px;
   opacity: 1;
@@ -3240,7 +3241,7 @@ h3,
 
 .subscribe-form .form-group .submit {
   color: #fff !important;
-  background: #fbb901 !important;
+  background: #eef7ff !important;
   border-radius: 0px 5px 5px 0px;
   font-size: 16px;
 }
@@ -3804,7 +3805,7 @@ textarea.form-control {
   margin-bottom: 5px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
-  color: #fbb901;
+  color: #0a0800;
   letter-spacing: 3px;
 }
 
@@ -3924,7 +3925,7 @@ textarea.form-control {
 }
 
 .ftco-counter .text span {
-  color: white;
+  color: rgb(5, 0, 0);
   margin-bottom: 10px;
   font-weight: 500;
   display: inline-block;
