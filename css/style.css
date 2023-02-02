@@ -2661,7 +2661,7 @@ h3,
 .owl-carousel.home-slider {
   position: relative;
   height: 750px;
-  z-index: 10;
+  z-index: 1;
 }
 
 .owl-carousel.home-slider:after {
